@@ -1,0 +1,34 @@
+%a.deck-prev-link{href: "#" , title:"Previous"}
+  &#8592;
+%a.deck-next-link{href: "#" , title:"Next"}
+  &#8594;
+
+%p.deck-status
+  %span.deck-status-current
+  %span.deck-status-total
+
+%form.goto-form{action: ".", method: "get"}
+  %label{for:"goto-slide"}= "Go to slide:"
+  %input#goto-slide{type:"text", name: "slidenum", list: "goto-datalist"}
+  %datalist#goto-datalist
+  %input{type:"submit", value: "Go"}
+</form>
+
+%a.deck-permalink{href: ".", title:"Permalink to this slide"}
+  = "#"
+
+%script{src: "jquery-1.7.2.min.js"}
+%script{src: "core/deck.core.js"}
+
+%script{src: "./core/deck.core.js"}
+%script{src: "./extensions/hash/deck.hash.js"}
+%script{src: "./extensions/menu/deck.menu.js"}
+%script{src: "./extensions/goto/deck.goto.js"}
+%script{src: "./extensions/status/deck.status.js"}
+%script{src: "./extensions/navigation/deck.navigation.js"}
+%script{src: "./extensions/scale/deck.scale.js"}
+
+:javascript
+  $(function() {
+    $.deck('.slide');
+  });
