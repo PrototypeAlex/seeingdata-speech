@@ -23,6 +23,14 @@
       .body {
         font-family: "Lato", sans-serif;
         color: #5d5d5d; }
+      
+      .pull-right {
+        float: right;
+        margin: 10px; }
+      
+      .pull-left {
+        float: left;
+        margin: 10px; }
     </style>
   </head>
   <body class='body deck-container'></body>
@@ -37,21 +45,35 @@
       Who are we?
     </h2>
     <ul>
-      <li class='slide' id='who-alex'>
-        <strong>Alex Gibson</strong>
-        <p>Recent Massey BEng graduate, co-founded Hashbang.</p>
-        <p>Is interested in design and user experience of visualisation.</p>
+      <li class='slide pull-left' id='who-alex'>
+        <div class='pull-left'>
+          <img src='images/alex.jpg' />
+        </div>
+        <div class='pull-left'>
+          <strong>Alex Gibson</strong>
+          <p>Recent Massey BEng graduate, co-founded Hashbang.</p>
+          <p>Is interested in design and user experience of visualisation.</p>
+        </div>
       </li>
-      <li class='slide' id='who-graham'>
-        <strong>Graham Jenson</strong>
-        <p>99% Massey PhD graduate, founded Maori Geek, works with Hashbang.</p>
-        <p>Is interested in the data and uses of visualisation.</p>
+      <li class='slide pull-left' id='who-graham'>
+        <div class='pull-left'>
+          <img src='images/graham.jpg' />
+        </div>
+        <div class='pull-left'>
+          <strong>Graham Jenson</strong>
+          <p>99% Massey PhD graduate, founded Maori Geek, works with Hashbang.</p>
+          <p>Is interested in the data and uses of visualisation.</p>
+        </div>
       </li>
-      <li class='slide' id='who-together'>
-        <strong>Combined</strong>
-        <p>We've worked on projects such as Plysit and more notably 100 Companies.</p>
-        <p>By splitting the roles we work well together, Alex on visualisation and front end, Graham on data collection and processing.</p>
-        <img class='mix-n-mash-logo' src='images/logo-mixandmash-tagless.png' />
+      <li class='slide pull-left' id='who-together'>
+        <div class='pull-left'>
+          <img class='mix-n-mash-logo' src='images/logo-mixandmash-tagless.png' />
+        </div>
+        <div class='pull-left'>
+          <strong>Combined</strong>
+          <p>We've worked on projects such as Plysit and more notably 100 Companies.</p>
+          <p>Alex on visualisation and front end, Graham on data collection and processing.</p>
+        </div>
       </li>
     </ul>
   </section>
@@ -93,87 +115,229 @@
     </ul>
   </section>
   <section class='slide'>
-    <h1>Mix and Mash</h1>
-  </section>
-  <section class='slide'>
-    <h2>Sir Paul Callaghan's Vision</h2>
-    <img src='images/paul.jpg'>.pull-left</img>
-    <ul>
-      <li class='slide'>
-        <strong>He is a renowned New Zealand Physicist.</strong>
-      </li>
-      <li class='slide'>
-        <strong>Wanted to understand why New Zealand is poor.</strong>
-      </li>
-      <li class='slide'>
-        <strong>This lead to a keynote talk about the future of New Zealand.</strong>
-      </li>
-      <li class='slide'>
-        <strong>100 companies is the best way to create wealth for New Zealand</strong>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>100 Companies</h2>
-    <ul>
-      <li class='slide'>
-        <strong>We decided to enter Mix and Mash to personally check some of the assertions he made during his talk.</strong>
-        <p>He had lots of assertions not backed up with data, and not linked together.</p>
-      </li>
-      <li class='slide'>
-        <strong>Interactive Visualisation</strong>
-        <p>We decided early on that the interactivity of visualisations is a key aspect for learning.</p>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>The Tourist Magnet</h2>
-    <ul>
-      <li class='slide'>
-        <strong>"The fool wanders, a wise man travels." Thomas Fuller</strong>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>Land of the long green farm</h2>
-    <ul>
-      <li class='slide'>
-        <strong>"Farming looks mighty easy when your plow is a pencil, and you're a thousand miles from the corn field." Dwight D. Eisenhower</strong>
-      </li>
-      <li class='slide'>
-        <strong>Farming is hard</strong>
-        <p>Farming is long hours of work, at relatively low pay.</p>
-        <p>It has historically decreasing returns since industrialization.</p>
-      </li>
-      <li class='slide'>
-        <strong>Fonterra is manufacture not famring.</strong>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>Black Gold</h2>
-    <ul>
-      <li class='slide'>
-        <strong>"Truth will rise above falsehood as oil above water." Miguel de Cervantes</strong>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>Made in NZ</h2>
-    <ul>
-      <li class='slide'>
-        <strong>"Sell the sizzle, not the steak."</strong>
-      </li>
-    </ul>
-  </section>
-  <section class='slide'>
-    <h2>100 Companies</h2>
-    <ul>
-      <li class='slide'>
-        <strong>"Technology does not drive change -- it enables change."</strong>
-      </li>
-    </ul>
-  </section>
+  <h1>Mix and Mash</h1>
+</section>
+<section class='slide'>
+  <h2>Sir Paul Callaghan's Vision</h2>
+  <div class='pull-left'>
+    <img src='images/paul.jpg' />
+  </div>
+  <ul class='pull-left'>
+    <li class='slide'>
+      <strong>A renowned New Zealand Physicist (magnetic resonance).</strong>
+    </li>
+    <li class='slide'>
+      <strong>Why is New Zealand poor?</strong>
+      <p>
+        We cannot even afford the medicine we want.
+      </p>
+      <p class='slide'>
+        Sir Paul had to go to the UK for his choice of cancer treatment.
+      </p>
+    </li>
+    <li class='slide'>
+      <strong>It must be us, and the decisions we make.</strong>
+      <p>
+        Lets examine those decisions, and see where we are going wrong.
+      </p>
+    </li>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>100 Companies</h2>
+  <img src='images/100companies.png' />
+  <ul>
+    <li class='slide'>
+      <strong>Lets enter Mix and Mash and use this as an opportunity to check some of Sir Paul's assertions.</strong>
+      <p>What can we back up with data, and present in a user friendly way.</p>
+    </li>
+    <li class='slide'>
+      <strong>Interactive Visualisation</strong>
+      <p>Interactivity will be important, to build and understand New Zealand's key aspects.</p>
+    </li>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/' target='_blank'>
+      The Overview
+    </a>
+  </h2>
+  <ul>
+    <li class='slide'>
+      3D Prosperity
+      <ol>
+        <li class='slide'>GDP per capita (how much each person makes for the country)</li>
+        <li class='slide'>Mean wage (How much people make for themselves)</li>
+        <li class='slide'>Average hours worked (how hard people work)</li>
+      </ol>
+    </li>
+    <li class='slide'>
+      <strong>Standards focused</strong>
+      <p>
+        ANZSIC6 (Industry Classification),
+        NZHSC (New Zealand Harmonised System Classification) Trade
+        GDP and QES (Employment survey) Quarterly reports
+        OECD Statistics
+        Australian Statistics
+      </p>
+      <p>
+        <strong>Allows composition of data</strong>
+      </p>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='tourism'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/tourism' target='_blank'>
+      The Tourist Magnet
+    </a>
+  </h2>
+  <div class='quote'>
+    <strong>"The fool wanders, a wise man travels."</strong>
+    <cite>-- Thomas Fuller</cite>
+  </div>
+  <h3 class='slide'>
+    Increasing tourism is good
+  </h3>
+  <ul class='slide'>
+    <li>
+      <strong>Sir Paul:</strong>
+      <p>more tourists require more hospitality workers who work hard with low pay.</p>
+      <p>lowers green image with destruction of popular DOC walks.</p>
+    </li>
+    <li>
+      <strong>Us:</strong>
+      <p>Scale tourism workers with number of tourists, its effects on prosperity.</p>
+      <p>Where do all these people stay?</p>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='dairy'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/dairy' target='_blank'>
+      Land of the long green farm
+    </a>
+  </h2>
+  <div class='quote'>
+    <strong>"Farming looks mighty easy when your plow is a pencil, and you're a thousand miles from the corn field."</strong>
+    <cite>-- Dwight D. Eisenhower</cite>
+  </div>
+  <h3 class='slide'>
+    More dairy is better!
+  </h3>
+  <ul class='slide'>
+    <li>
+      <strong>Sir Paul: Farming is hard</strong>
+      <p>Farming is long hours of work, at relatively low pay.</p>
+      <p>It has historically decreasing returns since industrialization.</p>
+      <p>Run off from more farms will further destroy New Zealands clean green image.</p>
+    </li>
+    <li>
+      <strong>Us:</strong>
+      <p>Cow Density (Cows per sq. meter).</p>
+      <p>More cows less National forests, houses.</p>
+    </li>
+    <li>
+      <strong>Fonterra is manufacture not famring.</strong>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='mining'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/mining' target='_blank'>
+      Black Gold
+    </a>
+  </h2>
+  <div class='quote'>
+    <strong>"Truth will rise above falsehood as oil above water."</strong>
+    <cite>-- Miguel de Cervantes</cite>
+  </div>
+  <h3 class='slide'>
+    Mining, like the Aussies.
+  </h3>
+  <ul class='slide'>
+    <li>
+      <strong>Sir Paul: Sell our National Soul</strong>
+      <p>Dig up all our land, sacrificing our image for such short term gains.</p>
+    </li>
+    <li>
+      <strong>Us: Finite</strong>
+      <p>Using the most optimistic measures, how much longer can New Zealand mine?</p>
+      <p>About half the turnover of mining goes towards GDP.</p>
+      <p>Dig up all of New Zealand and get 30% increase in GDP for a single year</p>
+    </li>
+    <li>
+      <strong>Estimates on estimates!</strong>
+      <p>Barker report estimates between 79 and 1,144 million barrels oil in Taranaki basin.</p>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='manufactoring'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/manufacturing' target='_blank'>
+      Made in NZ
+    </a>
+  </h2>
+  <div class='quote'>
+    <strong>"Sell the sizzle, not the steak."</strong>
+  </div>
+  <h3>
+    What are we exporting?
+  </h3>
+  <ul class='slide'>
+    <li>
+      <strong>Sir Paul: We are good at what we are good at!</strong>
+      <p>Manufacturing niche products for overseas</p>
+    </li>
+    <li>
+      <strong>Us: What industries are exporting what?</strong>
+    </li>
+    <li>
+      <strong>Industry to export is impossible</strong>
+      <p>The ANZSIC6 (Industry Classification) has no direct mapping to the NZHSC (New Zealand Harmonised System Classification) Trade.</p>
+      <p>Currently New Zealand has no guide to see what industries are exporting what products.</p>
+      <p>How can we make investment judgments if we don't know how we are making money?</p>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='companies100'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/companies' target='_blank'>
+      100 Companies
+    </a>
+  </h2>
+  <h3 class='slide'>
+    <strong>"Technology does not drive change -- it enables change."</strong>
+  </h3>
+  <ul class='slide'>
+    <li>
+      <strong>Sir Paul: 100 top manufacturing/technology companies will make us prosperous.</strong>
+    </li>
+    <li>
+      <strong>Us: Lets artificially add these companies and see what happens.</strong>
+      <p>TIN100 rankings, Wikipedia, company web sites.</p>
+      <p>Log/Log relationship between revenue to employees</p>
+    </li>
+  </ul>
+</section>
+<section class='slide' id='future'>
+  <h2>Future/After thoughts</h2>
+  <ul>
+    <li class='slide'>
+      <strong>References</strong>
+      <p>
+        As open as can be made. All assumptions documented.
+      </p>
+    </li>
+    <li class='slide'>
+      <strong>Disclaimer</strong>
+      <p>
+        We are computer scientists not economists, our models are simple and are not validated.
+      </p>
+    </li>
+  </ul>
+</section>
   <section class='slide'>
   <h1>
     The Psychology of Data Visualisation
@@ -431,7 +595,7 @@
       <br />
     </li>
     <li class='slide'>
-      Unfortunately I'm don't hold the answers to these questions.
+      Unfortunately I'm don't hold the answers to these questions. (Any economists in the room?)
     </li>
   </ul>
 </section>
@@ -439,6 +603,24 @@
     <h1>
       The Ugly, the Bad and the Good Visualisations
     </h1>
+  </section>
+  <section class='slide' id='theugly'>
+    <h2>
+      The Ugly
+    </h2>
+    <ul>
+      <li class='slide'></li>
+    </ul>
+  </section>
+  <section class='slide' id='thebad'>
+    <h2>
+      The Bad
+    </h2>
+  </section>
+  <section class='slide' id='thegood'>
+    <h2>
+      The Good
+    </h2>
   </section>
   <a class='deck-prev-link' href='#' title='Previous'>
   &#8592;
