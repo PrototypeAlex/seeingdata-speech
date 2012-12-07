@@ -39,15 +39,15 @@
   color: #888;
 }
 .deck-container .slide ::-moz-selection {
-  background: #c00;
+  background: #dc1a59;
   color: #fff;
 }
 .deck-container .slide ::selection {
-  background: #c00;
+  background: #dc1a59;
   color: #fff;
 }
 .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
-  color: #c00;
+  color: #dc1a59;
   text-decoration: none;
 }
 .deck-container .slide a:hover, .deck-container .slide a:focus {
@@ -70,7 +70,7 @@
   color: #fff;
 }
 .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
-  background: #c00;
+  background: #dc1a59;
   text-decoration: none;
 }
 .deck-container .deck-status {
