@@ -31,6 +31,14 @@
       .pull-left {
         float: left;
         margin: 10px; }
+      
+      .rotate270 {
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+        filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678, sizingMethod='auto expand'); }
     </style>
   </head>
   <body class='body deck-container'></body>
@@ -45,9 +53,9 @@
       Who are we?
     </h2>
     <ul style='list-style: none; margin-left: 0'>
-      <li class='slide pull-left' id='who-alex'>
+      <li class='slide pull-left'>
         <div class='pull-left'>
-          <img src='images/alex.jpg' />
+          <img src='images/alex.jpg' style='padding-top: 15px' />
         </div>
         <div class='pull-left' style='margin-left: 30px'>
           <strong style='font-size: 1.8em'>Alex Gibson</strong>
@@ -56,9 +64,9 @@
           <strong>@PrototypeAlex</strong>
         </div>
       </li>
-      <li class='slide pull-left' id='who-graham'>
+      <li class='slide pull-left'>
         <div class='pull-left'>
-          <img src='images/graham.jpg' style='padding-top: 15px' />
+          <img src='images/graham.jpg' style='padding-top: 30px' />
         </div>
         <div class='pull-left' style='margin-left: 20px'>
           <strong style='font-size: 1.8em'>Graham Jenson</strong>
@@ -79,27 +87,29 @@
   </section>
   <section class='slide'>
     <h2>Why we're here</h2>
-    <ul>
-      <li class='slide'>
-        <strong>Big Data</strong>
-        <p>Big Data is the National Library's inaugural programme of exhibitions, seminars, and workshops.</p>
-      </li>
-      <li class='slide'>
-        <strong>We ♥ Big Data</strong>
-        <p>Data can be used to illuminate difficult to understand topics and allow people to make better decisions.</p>
-      </li>
-      <li class='slide'>
-        <strong>We ♥ Good User Experience</strong>
-        <p>Good user experience and visualisation techniques open up new realms of analytical sensemaking.</p>
-      </li>
-      <li class='slide' style='text-align: center; width: 100%; list-style: none; margin-left: -2em'>
-        <strong>Data + Great User Experience = Beautiful Data Visualisation = Our Goal</strong>
-        <br />
-        <br />
-        <p>A user should be comfortable interacting with and exploring data.</p>
-        <p>The data should be opne, and tell the truth.</p>
-      </li>
-    </ul>
+    <div class='slide'>
+      <h3>Big Data</h3>
+      <p>Big Data is the National Library's inaugural programme of exhibitions, seminars, and workshops.</p>
+    </div>
+    <div class='slide'>
+      <h3>We ♥ Big Data</h3>
+      <p>Data can be used to illuminate difficult to understand topics and allow people to make better decisions.</p>
+    </div>
+    <div class='slide'>
+      <h3>We ♥ Good User Experience</h3>
+      <p>Good user experience and visualisation techniques open up new realms of analytical sensemaking.</p>
+    </div>
+  </section>
+  <section class='slide'>
+    <h1 style='font-size: 2.2em;'>
+      Data
+      <br>+</br>
+      Great User Experience
+      <br />
+      =
+      <br />
+      Beautiful Data Visualisation
+    </h1>
   </section>
   <section class='slide'>
     <h2>Why you should care</h2>
@@ -231,15 +241,15 @@
   <ul>
     <li class='slide'>
       <p>
-        <strong>Statement:</strong>
-        Increasing tourism is good‽
+        <strong>Question:</strong>
+        Is increasing our tourism a good idea?
       </p>
     </li>
     <li class='slide'>
       <p>
         <strong>Sir Paul's Assertion:</strong>
       </p>
-      <p>More tourists require more hospitality workers who work hard with low pay.</p>
+      <p>More tourists require more hospitality workers who work hard with less hours and low pay.</p>
       <p>Lowers green image with destruction of popular DOC walks.</p>
     </li>
     <li class='slide'>
@@ -264,23 +274,21 @@
   <ul>
     <li class='slide'>
       <p>
-        <strong>Statement:</strong>
-        Fonterra is doing well, so more dairy is better‽
+        <strong>Question:</strong>
+        Fonterra is doing well, so is more dairy better?
       </p>
     </li>
     <li class='slide'>
       <p>
         <strong>Sir Paul's Assertion:</strong>
       </p>
-      <p>Farming is hard, it's long hours of work at a relatively low pay.</p>
-      <p>It has historically decreasing returns since industrialization.</p>
-      <p>Run off from more farms will further destroy New Zealands clean green image.</p>
+      <p>Farming is hard work, long hours and a relatively low pay.</p>
+      <p>Destroys New Zealands clean green image.</p>
     </li>
     <li class='slide'>
       <p>
         <strong>Our Response:</strong>
       </p>
-      <p>Cow Density (Cows per sq. meter).</p>
       <p>More cows less National forests, houses.</p>
       <p>
         <strong>Fonterra is manufacture not famring.</strong>
@@ -301,8 +309,8 @@
   <ul>
     <li class='slide'>
       <p>
-        <strong>Statement:</strong>
-        Why don't we dig it all up, like the Aussies‽
+        <strong>Question:</strong>
+        We have plenty of mineral wealth, why not dig it up?
       </p>
     </li>
     <li class='slide'>
@@ -318,13 +326,27 @@
       </p>
       <p>Using the most optimistic measures, how much longer can New Zealand mine?</p>
       <p>About half the turnover of mining goes towards GDP.</p>
-      <p>Dig up all of New Zealand and get 30% increase in GDP for a single year</p>
     </li>
-    <li class='slide'>
-      <p>
-        <strong>Estimates on estimates!</strong>
-      </p>
-      <p>Barker report estimates between 79 and 1,144 million barrels oil in Taranaki basin.</p>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/mining' target='_blank'>
+      Black Gold
+    </a>
+  </h2>
+  <ul>
+    <li>
+      <h4>Dig up all of New Zealand and get 30% increase in GDP for a single year</h4>
+      <br />
+      <br />
+    </li>
+    <li style='list-style: none; margin-left: -2em'>
+      <h4 style='text-align: center;'>
+        Estimates on estimates!
+        <br />
+        Barker report estimates between 79 and 1,144 million barrels oil in Taranaki basin.
+      </h4>
     </li>
   </ul>
 </section>
@@ -341,7 +363,7 @@
     <li class='slide'>
       <p>
         <strong>Question:</strong>
-        What are we exporting?
+        If exports are so good, then what exactly are we exporting?
       </p>
     </li>
     <li class='slide'>
@@ -356,8 +378,18 @@
         <strong>Our Response:</strong>
       </p>
       <p>What industries are exporting what?</p>
+      <p>And where do the exports go?</p>
     </li>
-    <li class='slide'>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>
+    <a href='http://mash.hashbang.co.nz/manufacturing' target='_blank'>
+      Made in NZ
+    </a>
+  </h2>
+  <ul>
+    <li>
       <p>
         <strong>Industry to export is impossible</strong>
       </p>
@@ -380,7 +412,7 @@
     <li class='slide'>
       <p>
         <strong>Question:</strong>
-        How then do we become prosperous
+        How then do we make New Zealand prosperous?
       </p>
     </li>
     <li class='slide'>
@@ -393,8 +425,8 @@
       <p>
         <strong>Our Response:</strong>
       </p>
-      <p>Lets artificially add these companies and see what happens.</p>
-      <p>TIN100 rankings, Wikipedia, company web sites.</p>
+      <p>Lets artificially add these companies to our economy and see what happens.</p>
+      <p>Using TIN100 rankings, Wikipedia, company web sites.</p>
       <p>Log/Log relationship between revenue to employees</p>
     </li>
   </ul>
@@ -442,7 +474,7 @@
   </h1>
 </section>
 <section class='slide deck-container-vertical'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <ul>
     <li class='slide'>
       Imagine you come accross a visualiastion you've never before seen.
@@ -450,12 +482,7 @@
       <br />
     </li>
     <li class='slide'>
-      Intially your brain has no idea what it's looking at.
-      <br />
-      <br />
-    </li>
-    <li class='slide'>
-      Then through a flood sensory information we begin <strong>examine</strong> the visualisation.
+      Through a flood sensory information we begin <strong>examine</strong> the visualisation.
       <br />
       <br />
     </li>
@@ -467,19 +494,14 @@
   </ul>
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <img src='images/unemployment-line.gif' />
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <ul>
     <li style='opacity: 0.4;'>
       Imagine you come accross a visualiastion you've never before seen.
-      <br />
-      <br />
-    </li>
-    <li style='opacity: 0.4;'>
-      Intially your brain has no idea what it's looking at.
       <br />
       <br />
     </li>
@@ -506,11 +528,11 @@
   </ul>
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <img src='images/visual-cortex.png' />
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <ul>
     <li class='slide'>
       You have no inherient meaning of the information, however your brain quickly maps it against past <strong>memories</strong>.
@@ -525,11 +547,11 @@
   </ul>
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <img src='images/frontal-lobe.png' />
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <ul>
     <li style='opacity: 0.4;'>
       You have no inherient meaning of the information, however your brain quickly maps it against past <strong>memories</strong>.
@@ -559,7 +581,7 @@
   </ul>
 </section>
 <section class='slide'>
-  <h2>How do we understand Data Visualisations?</h2>
+  <h2>Understanding a data visualisation</h2>
   <img src='images/brain-balance.png' />
 </section>
 <section class='slide'>
@@ -692,6 +714,86 @@
     </li>
   </ul>
 </section>
+<section class='slide'>
+  <h2>Open Issues: #1 Brain bug</h2>
+  <div class='quote'>
+    <strong>"Optical Illusions. They should call them brain failures. We are poor data taking devices."</strong>
+    <cite>-- Niel deGrasse Tyson</cite>
+  </div>
+  <br />
+  <img id='ilus' onClick="$('#ilus').toggleClass('rotate270')" src='images/lie0.jpg' />
+</section>
+<section class='slide'>
+  <h2>
+    We are easily tricked
+  </h2>
+  <img src='images/tufte-lie.jpg' style='margin-top: 150px' />
+</section>
+<section class='slide'>
+  <h2>
+    We are easily tricked
+  </h2>
+  <img src='images/fuel-economy.png' />
+</section>
+<section class='slide'>
+  <h2>
+    We are easily tricked
+  </h2>
+  <ul style='list-style: none; margin-left: 0; text-align: center'>
+    <li class='slide'>
+      <h4>
+        Visualisations should never enforce opinions - Guide, not force.
+        <br />
+        <br />
+      </h4>
+    </li>
+    <li class='slide'>
+      <h4>
+        Visualisations should not misrepresent data - Show the truth.
+        <br />
+        <br />
+      </h4>
+    </li>
+    <li class='slide'>
+      <h4>
+        People will take away what they want.
+        <br />
+        <br />
+      </h4>
+    </li>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>A deliberate attempt to mislead</h2>
+  <h4>Less sleep means more accidents.</h4>
+  <img src='images/lie2.png' style='float: right' />
+  <ul>
+    <li>
+      Different charts with different scales
+    </li>
+    <li>
+      Ticks are different (left = 100, right = 200)
+    </li>
+    <li>
+      Zoomed in scale emphasises small differences.
+    </li>
+    <li>
+      No context in which to judge the information
+    </li>
+  </ul>
+</section>
+<section class='slide'>
+  <h2>Good and Better</h2>
+  <div class='slide'>
+    <strong class='pull-left'>Good</strong>
+    <img class='pull-left' src='images/better1.png' style='margin-top: 60px' />
+  </div>
+  <br />
+  <div class='slide' style='margin-top: -40px'>
+    <strong class='pull-left'>Better</strong>
+    <img class='pull-left' src='images/better2.png' style='margin-top: 80px' />
+  </div>
+</section>
   <section class='slide' id='thegood'>
     <h1>
       Tools
@@ -707,7 +809,7 @@
   </section>
   <section class='slide'>
     <h1>
-      The Ugly, the Bad and the Good Visualisations
+      The Good, the Bad and the Ugly
     </h1>
   </section>
   <section class='slide' id='theugly'>

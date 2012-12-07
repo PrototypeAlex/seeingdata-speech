@@ -7,18 +7,14 @@
     Why use Data Visualisation....
 
 %section.slide.deck-container-vertical
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %ul
     %li.slide
       Imagine you come accross a visualiastion you've never before seen.
       %br
       %br
     %li.slide
-      Intially your brain has no idea what it's looking at.
-      %br
-      %br
-    %li.slide
-      Then through a flood sensory information we begin <strong>examine</strong> the visualisation.
+      Through a flood sensory information we begin <strong>examine</strong> the visualisation.
       %br
       %br
     %li.slide
@@ -27,19 +23,15 @@
       %br
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %img{:src => 'images/unemployment-line.gif'}
 
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %ul
     %li{:style => 'opacity: 0.4;'}
       Imagine you come accross a visualiastion you've never before seen.
-      %br
-      %br
-    %li{:style => 'opacity: 0.4;'}
-      Intially your brain has no idea what it's looking at.
       %br
       %br
     %li{:style => 'opacity: 0.4;'}
@@ -60,12 +52,12 @@
       %br
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %img{:src => 'images/visual-cortex.png'}
 
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %ul
     %li.slide
       You have no inherient meaning of the information, however your brain quickly maps it against past <strong>memories</strong>.
@@ -78,11 +70,11 @@
 
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %img{:src => 'images/frontal-lobe.png'}
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %ul
     %li{:style => 'opacity: 0.4;'}
       You have no inherient meaning of the information, however your brain quickly maps it against past <strong>memories</strong>.
@@ -106,7 +98,7 @@
       %br
 
 %section.slide
-  %h2 How do we understand Data Visualisations?
+  %h2 Understanding a data visualisation
   %img{:src => 'images/brain-balance.png'}
 
 %section.slide
@@ -213,47 +205,63 @@
 
 
 %section.slide
-  %h2 False perspectives, bias and other naughty things
+  %h2 Open Issues: #1 Brain bug
   .quote
     %strong "Optical Illusions. They should call them brain failures. We are poor data taking devices."
     %cite -- Niel deGrasse Tyson
+  %br
   %img#ilus{:src => 'images/lie0.jpg', onClick: "$('#ilus').toggleClass('rotate270')"}
 
 %section.slide
   %h2
     We are easily tricked
-  %img.slide{:src => 'images/lie1.jpg'}
-  %ul
+  %img{:src => 'images/tufte-lie.jpg', :style => 'margin-top: 150px'}
+
+%section.slide
+  %h2
+    We are easily tricked
+  %img{:src => 'images/fuel-economy.png'}
+
+%section.slide
+  %h2
+    We are easily tricked
+  %ul{:style => 'list-style: none; margin-left: 0; text-align: center'}
     %li.slide
-      %strong
-        Visualisations should never enforce opinions.
-      %p
-        Guide, not force.
+      %h4
+        Visualisations should never enforce opinions - Guide, not force.
+        %br
+        %br
     %li.slide
-      %strong Visualisations should not misrepresent data.
-      %p
-        Show the truth.
+      %h4
+        Visualisations should not misrepresent data - Show the truth.
+        %br
+        %br
     %li.slide
-      %strong People will take away what they want.
+      %h4
+        People will take away what they want.
+        %br
+        %br
 
 %section.slide
   %h2 A deliberate attempt to mislead
-  %img{:src => 'images/lie2.png'}
-  %h3 Less sleep means more accidents.
+  %h4 Less sleep means more accidents.
+  %img{:src => 'images/lie2.png', :style => 'float: right'}
   %ul
-    %li.slide
-      Different charts with different scales, ticks are different (left = 100, right = 200)
-    %li.slide
+    %li
+      Different charts with different scales
+    %li
+      Ticks are different (left = 100, right = 200)
+    %li
       Zoomed in scale emphasises small differences.
-    %li.slide
+    %li
       No context in which to judge the information
 
 %section.slide
   %h2 Good and Better
   .slide
     %strong.pull-left Good
-    %img.pull-left{:src => 'images/better1.png'}
+    %img.pull-left{:src => 'images/better1.png', :style => 'margin-top: 60px'}
   %br
-  .slide
+  .slide{:style => 'margin-top: -40px'}
     %strong.pull-left Better
-    %img.pull-left{:src => 'images/better2.png'}
+    %img.pull-left{:src => 'images/better2.png', :style => 'margin-top: 80px'}
