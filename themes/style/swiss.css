@@ -83,6 +83,13 @@
   background: #ddf;
 }
 
+.quote {
+  text-align: right;
+  font-size: .8em !important;
+  margin-top: -.666em !important;
+  margin-bottom: 1em;
+}
+
 
 /* Index */
 .deck-container img.main-logo {
