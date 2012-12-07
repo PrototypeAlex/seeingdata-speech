@@ -4,7 +4,8 @@
 
 %section.slide
   %h2 Protovis
-  %iframe{width: "1000", height: "700", scrolling: "no", src: "http://mbostock.github.com/protovis/ex/cars-full.html"}
+  %a{:href => 'http://mbostock.github.com/protovis/ex/cars-full.html', :target => '_blank'}
+    %img{:src => 'images/parallel-coords.png'}
 
 %section.slide
   %h2 D3
@@ -20,8 +21,7 @@
     The Ugly
 
 %section.slide
-  %h2 NY Times
-  %img.pull-left{width: "90%", height: "90%", src: "images/ugly1.jpg"}
+  %img.pull-left{height: "90%", src: "images/weather-ny.gif", :style => 'margin-top: 100px'}
 
 %section.slide
   %img.pull-left{width: "90%", height: "90%", src: "images/ugly2.jpg"}
@@ -34,10 +34,7 @@
     The Bad
 
 %section.slide
-  %img.pull-left{width: "90%", height: "90%", src: "images/smbcstat.png"}
-
-%section.slide
-  %img.pull-left{width: "90%", height: "90%", src: "images/xkcd1.png"}
+  %img.pull-left{width: "100%", height: "90%", src: "images/sugargram.png", :style => 'margin-top: 20px'}
 
 %section.slide
   %h2 USA Today
@@ -51,8 +48,8 @@
   %h1
     The Good
 
-%section.slide
-  %img.pull-left{src: "images/lovehate.jpg", style: 'margin: auto; margin-top: 200px;'}
+%section.slide{:style => 'background-color: black;'}
+  %img.pull-left{src: "images/lovehate.png", style: 'margin: auto; margin-top: 140px;'}
 
 %section.slide
   %img.pull-left{src: "images/tornado.jpg", style: 'margin: auto; margin-top: 10px;'}
